@@ -1,19 +1,21 @@
 {
-    "user": "Susman",
+    "user": "xipxop7",
     "repo": "sampctl-cef",
     "include_path": "server",
     "resources": [
         {
-            "name": "^cef.so$",
+            "name": "^samp-cef-sampctl.zip$",
             "platform": "linux",
             "archive": true,
-            "plugins": ["cef.so"]
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/cef.so"]
         },
         {
-            "name": "^cef.dll$",
+            "name": "^samp-cef-sampctl.zip$",
             "platform": "windows",
             "archive": true,
-            "plugins": ["cef.dll"]
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/cef.dll"]
         }
     ],
     "runtime": {
