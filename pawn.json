@@ -19,6 +19,6 @@
         }
     ],
     "runtime": {
-        "plugins": ["flamesidgs/sampctl-cef"]
+        "plugins": ["xipxop7/sampctl-cef"]
     }
 }
