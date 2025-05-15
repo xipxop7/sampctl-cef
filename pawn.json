@@ -1,0 +1,22 @@
+{
+    "user": "Susman",
+    "repo": "sampctl-cef",
+    "include_path": "server",
+    "resources": [
+        {
+            "name": "^cef.so$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["cef.so"]
+        },
+        {
+            "name": "^cef.dll$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["cef.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["flamesidgs/sampctl-cef"]
+    }
+}
